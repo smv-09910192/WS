@@ -1,0 +1,4 @@
+  <input [formControl]="messageContent" placeholder="message"><br>
+  <button (click)="sendMessage()" value="send" name="send">Send</button>
+
+{{messages | json}}
